@@ -1,0 +1,48 @@
+body{
+  margin:0px;
+  background-image:url('https://static.vecteezy.com/system/resources/previews/002/027/955/non_2x/blue-watercolor-texture-abstract-background-vector.jpg');
+}
+header {
+  background-color: #0000e6;
+  padding:20px;
+  margin:0px;
+}
+header a{
+   color: white;
+   text-decoration:none;
+   font-size:20px;
+}
+.menu a{
+   color: white;
+   text-decoration:none;
+   font-size:10px;
+}
+.menu a:hover{
+    font-size:20px;
+    color:#e6ffe6;
+    transition:1s, ease-out;
+}
+nav{
+   display:flex;
+   justify-content: space-around;
+
+}
+.menu {
+    width:70px;
+    background-color: #0000e6;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    position: fixed;
+    left:0px;
+    top:60px;
+}
+.menu:hover{
+    width:120px;
+    background-color:#0000e6;
+    transition:1s,
+}
+main {
+  margin:30px 100px 30px 100px;
+}
